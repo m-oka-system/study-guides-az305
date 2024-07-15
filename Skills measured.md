@@ -1,148 +1,137 @@
-2023 年 8 月 7 日現在の評価されるスキル
+Skills_measured_as_of_January_22_2024
 
-- ID、ガバナンス、および監視ソリューションを設計する (25 から 30%)
+- Design identity, governance, and monitoring solutions (25–30%)
 
-- データ ストレージ ソリューションを設計する (20 から 25%)
+- Design data storage solutions (20–25%)
 
-- ビジネス継続性ソリューションを設計する (15 から 20%)
+- Design business continuity solutions (15–20%)
 
-- インフラストラクチャ ソリューションを設計する (30 から 35%)
+- Design infrastructure solutions (30–35%)
 
-### ID、ガバナンス、および監視ソリューションを設計する (25 から 30%)
+### Design identity, governance, and monitoring solutions (25–30%)
 
-#### ログと監視のためのソリューションを設計する
+#### Design solutions for logging and monitoring
 
-- ログ ソリューションを推奨する
+- Recommend a logging solution
 
-- ログをルーティングするためのソリューションを推奨する
+- Recommend a solution for routing logs
 
-- 監視ソリューションを推奨する
+- Recommend a monitoring solution
 
-#### 認証と認可のソリューションを設計する
+#### Design authentication and authorization solutions
 
-- 認証ソリューションを推奨する
+- Recommend an authentication solution
 
-- ID 管理ソリューションを推奨する
+- Recommend an identity management solution
 
-- Azure リソースへのアクセスを承認するためのソリューションを推奨する
+- Recommend a solution for authorizing access to Azure resources
 
-- シークレット、証明書、キーを管理するソリューションを推奨する
+- Recommend a solution to manage secrets, certificates, and keys
 
-#### 設計のガバナンス
+#### Design governance
 
-- 管理グループ、サブスクリプション、リソース グループの構造と、リソースのタグ付けの戦略を推奨する
+- Recommend a structure for management groups, subscriptions, and resource groups, and a strategy for resource tagging
 
-- コンプライアンス管理のソリューションを推奨する
+- Recommend a solution for managing compliance
 
-- ID ガバナンスのソリューションを推奨する
+- Recommend a solution for identity governance
 
+### Design data storage solutions (20–25%)
 
+#### Design data storage solutions for relational data
 
+- Recommend a solution for storing relational data
 
+- Recommend a database service tier and compute tier
 
+- Recommend a solution for database scalability
 
+- Recommend a solution for data protection
 
+#### Design data storage solutions for semi-structured and unstructured data
 
+- Recommend a solution for storing semi-structured data
 
+- Recommend a solution for storing unstructured data
 
-### データ ストレージ ソリューションを設計する (20 から 25%)
+- Recommend a data storage solution to balance features, performance, and costs
 
-#### リレーショナル データ用にデータ ストレージ ソリューションを設計する
+- Recommend a data solution for protection and durability
 
-- リレーショナル データを格納するためのソリューションを推奨する
+#### Design data integration
 
-- データベース サービス レベルとコンピューティング レベルを推奨する
+- Recommend a solution for data integration
 
-- データベースのスケーラビリティのためのソリューションを推奨する
+- Recommend a solution for data analysis
 
-- データ保護のソリューションを推奨する
+### Design business continuity solutions (15–20%)
 
+#### Design solutions for backup and disaster recovery
 
+- Recommend a recovery solution for Azure and hybrid workloads that meets recovery objectives
 
-#### 半構造化および非構造化データのデータ ストレージ ソリューションを設計する
+- Recommend a backup and recovery solution for compute
 
-- 半構造化データを格納するためのソリューションを推奨する
+- Recommend a backup and recovery solution for databases
 
-- 非構造化データを格納するためのソリューションを推奨する
+- Recommend a backup and recovery solution for unstructured data
 
-- 機能、パフォーマンス、コストのバランスを考慮したデータ ストレージ ソリューションを推奨する
+#### Design for high availability
 
-- 保護と持続性に対応するデータ ソリューションを推奨する
+- Recommend a high availability solution for compute
 
-#### データ統合を設計する
+- Recommend a high availability solution for relational data
 
-- データ統合用のソリューションを推奨する
+- Recommend a high availability solution for semi-structured and unstructured data
 
-- データ分析用のソリューションを推奨する
+### Design infrastructure solutions (30–35%)
 
-### ビジネス継続性ソリューションを設計する (15 から 20%)
+#### Design compute solutions
 
-#### バックアップとディザスター リカバリーのソリューションを設計する
+- Specify components of a compute solution based on workload requirements
 
-- Azure とハイブリッド ワークロード向けにリカバリの目的を満たすリカバリ ソリューションを推奨する
+- Recommend a virtual machine-based solution
 
-- コンピューティングのバックアップと回復のソリューションを推奨する
+- Recommend a container-based solution
 
-- データベースのバックアップと回復のソリューションを推奨する
+- Recommend a serverless-based solution
 
-- 非構造化データのバックアップと回復のソリューションを推奨する
+- Recommend a compute solution for batch processing
 
-#### 高可用性向けの設計
+#### Design an application architecture
 
-- コンピューティング向けの高可用性ソリューションを推奨する
+- Recommend a messaging architecture
 
-- リレーショナル データ向けの高可用性ソリューションを推奨する
+- Recommend an event-driven architecture
 
-- 半構造化および非構造化データ向けの高可用性ソリューションを推奨する
+- Recommend a solution for API integration
 
-### インフラストラクチャ ソリューションを設計する (30 から 35%)
+- Recommend a caching solution for applications
 
-#### コンピューティング ソリューションを設計する
+- Recommend an application configuration management solution
 
-- ワークロード要件に基づいてコンピューティング ソリューションのコンポーネントを指定する
+- Recommend an automated deployment solution for applications
 
-- 仮想マシンベースのソリューションを推奨する
+#### Design migrations
 
-- コンテナーベースのソリューションを推奨する
+- Evaluate a migration solution that leverages the Microsoft Cloud Adoption Framework for Azure
 
-- サーバーレスベースのソリューションを推奨する
+- Evaluate on-premises servers, data, and applications for migration
 
-- バッチ処理向けのコンピューティング ソリューションを推奨する
+- Recommend a solution for migrating workloads to infrastructure as a service (IaaS) and platform as a service (PaaS)
 
-#### アプリケーション アーキテクチャを設計する
+- Recommend a solution for migrating databases
 
-- メッセージング アーキテクチャを推奨する
+- Recommend a solution for migrating unstructured data
 
-- イベント ドリブン アーキテクチャを推奨する
+#### Design network solutions
 
-- API 統合のソリューションを推奨する
+- Recommend a connectivity solution that connects Azure resources to the internet
 
-- アプリケーションのキャッシュ ソリューションを推奨する
+- Recommend a connectivity solution that connects Azure resources to on-premises networks
 
-- アプリケーション構成管理ソリューションを推奨する
+- Recommend a solution to optimize network performance
 
-- アプリケーション用の自動化されたデプロイ ソリューションを推奨する
+- Recommend a solution to optimize network security
 
-#### 移行を設計する
-
-- Azure 向けの Microsoft クラウド導入フレームワークを利用した移行ソリューションを評価する
-
-- オンプレミスのサーバー、データ、アプリケーションの移行を評価する
-
-- サービスとしてのインフラストラクチャ (IaaS) とサービスとしてのプラットフォーム (PaaS) にワークロードを移行するためのソリューションを推奨する
-
-- データベースを移行するソリューションを推奨する
-
-- 非構造化データを移行するソリューションを推奨する
-
-#### ネットワーク ソリューションを設計する
-
-- Azure リソースをインターネットに接続する接続ソリューションを推奨する
-
-- Azure リソースをオンプレミス ネットワークに接続する接続ソリューションを推奨する
-
-- ネットワーク パフォーマンスを最適化するソリューションを推奨する
-
-- ネットワーク セキュリティを最適化するためのソリューションを推奨する
-
-- 負荷分散とルーティング ソリューションを推奨する
+- Recommend a load-balancing and routing solution
